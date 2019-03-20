@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myapp.ahova.manhigot"
+    android:versionName="1.003"
+    android:versionCode="29">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/manhigot1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/manhigot1"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.myapp.ahova.manhigot.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.myapp.ahova.manhigot.Mabada_regeshot">
+        </activity>
+        <activity android:name="com.myapp.ahova.manhigot.YsoudLab">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.android.ahova.manhigot.com.myapp.ahova.manhigot.YsoudLab">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="תדרי יסוד"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageView
+        android:id="@+id/red_lab"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/lab_red_try"
+        android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/myAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="התשובה שלנו..." />
+
+        <ImageView
+            android:id="@+id/blue_lab"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/lab_blue_try" />
+
+        <TextView
+            android:id="@+id/myAnswer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="התשובה שלנו..." />
+
+        <ImageView
+            android:id="@+id/yellow_lab"
+            android:layout_width="533dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/lab_yellow_try" />
+
+    <TextView
+        android:id="@+id/myAnswer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="התשובה שלנו..." />
+
+
+</LinearLayout>
+    </ScrollView>
